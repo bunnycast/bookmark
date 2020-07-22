@@ -9,5 +9,5 @@ urlpatterns = [
     path('delete/<int:pk>', BookmarkDelete.as_view(), name='delete'),
     path('update/<int:pk>', BookmarkUpdate.as_view(), name='update'),
     path('deteil/<int:pk>', BookmarkDetail.as_view(), name='detail'),
-    path('', BookmarkList.as_view(), name='list'),
+    path('', BookmarkList.as_view(), name='index'),
 ]
